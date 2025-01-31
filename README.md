@@ -12,15 +12,15 @@ A high-performance solution to extract logs from a 1TB log file for a specific d
 python
 python src/extract_logs.py YYYY-MM-DD
 
-##Output
+## Output
 Creates files in output/output_YYYY-MM-DD.txt
 Contains all logs for specified date
 
-##Requirements
+## Requirements
 Python 3.x
 Sufficient disk space for output
 
-##Performance
+## Performance
 Optimized for 1TB log files
 Memory efficient
 Fast retrieval using binary search
